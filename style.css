@@ -19,7 +19,7 @@ body {
     width: 100%;
 }
 
-.top-part {
+header {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -60,6 +60,11 @@ ul {
     width: 180px;
 }
 
+.categ-title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
 li {
     width: 100%;
     margin: 5px auto;
@@ -97,3 +102,17 @@ a {
     .pwa:focus {
         background-color: #884d4d;
     }
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    background-color: #4d4d4d;
+    color: #6e6e6e;
+    padding: 5px 0;
+}
