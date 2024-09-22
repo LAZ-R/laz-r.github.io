@@ -9,8 +9,8 @@ html, body {
     color: #4d4d4d;
     background-color: #cacaca;
     margin: 0 0;
-    height: 100dvh;
-    width: 100dvw;
+    height: 100svh;
+    width: 100svw;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 35dvh; height: 35dvh; max-height: 35dvh;
+    min-height: 35svh; height: 35svh; max-height: 35svh;
     width: 100%;
     background-color: #ffffff;
 
@@ -35,8 +35,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 55dvh; height: 55dvh; max-height: 55dvh;
+    min-height: 55svh; height: 55svh; max-height: 55svh;
     width: 100%;
+    gap: 2svh;
 
     button {
         display: flex;
@@ -124,7 +125,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 10dvh; height: 10dvh; max-height: 10dvh;
+    min-height: 10svh; height: 10svh; max-height: 10svh;
     background-color: #4d4d4d;
     color: #6e6e6e;
 }
