@@ -5,22 +5,66 @@
     <title id="title">laz_R</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
     <meta name="theme-color" content="#ffffff"/>
   </head>
 
   <body>
     <header>
-      <img src="./icon-512.webp" alt="my logo" class="logo"/>
-      <!-- <h1>Applications PWA</h1> -->
+      <img src="/icon-512.webp" alt="my logo" class="logo"/>
     </header>
-    <div class="bottom-part">
-      <a class="pwa" href="https://github.com/LAZ-R"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" style="filter: invert(1)"; /><span>GitHub</span></a>
-      <a class="pwa" href="https://laz-r.github.io/store/"><img src="./store-icon.png" /><span>PWA Store</span></a>
+    <main>
+      <h1>Développement</h1>
+      <a 
+        class="pwa" 
+        href="https://laz-r.github.io/store/">
+        <img src="/store-icon.png" />
+        <span>App Store</span>
+      </a>
+      <a
+        class="github" 
+        href="https://github.com/LAZ-R">
+        <img src="/github.png" style="filter: invert(1)" />
+        <span>GitHub</span>
+      </a>
+
+      <hr>
+
+      <h1>Musique</h1>
+
+      <a 
+        class="pwa" 
+        href="https://laz-r.github.io/h3oplus-2024/">
+        <img src="/logo-h3oplus.png" style="filter: invert(1)" />
+        <span>The H3O+ Project</span>
+      </a>
+
+      <a
+        class="soundcloud" 
+        href="https://soundcloud.com/h3oplus-laz-r">
+        <img src="/soundcloud.png" />
+        <span>SoundCloud</span>
+      </a>
+
+      <hr>
+
+      <h1>Divers</h1>
+
+      <a 
+        class="letterboxd" 
+        href="https://letterboxd.com/laz__r/">
+        <img src="/letterboxd.png" />
+        <span>Letterboxd</span>
+      </a>
+      
       <!-- <a class="pwa disabled" href="https://fiww7o3urzeyslftzwywtq.on.drv.tw/flechettes-pwa/">Fléchettes</a> -->
       <!-- <a class="pwa disabled" href="https://fiww7o3urzeyslftzwywtq.on.drv.tw/planetary_system_generator_alpha_v_0_0_7/"><i>Alpha version (v0.0.6)</i><span>planetary system generator</span></a> -->
       <!-- <a class="pwa disabled" href="https://fiww7o3urzeyslftzwywtq.on.drv.tw/timer_poc_v_0_0_2/"><i>Alpha version (v0.0.2)</i><span>futur task timer poc</span></a> -->
-    </div>
-    <footer>&copy; 2024 - v 0.0.16</footer>
+    </main>
+    <footer id="footer"></footer>
   </body>
+
+  <script>
+    document.getElementById('footer').innerHTML = `v 0.0.17 - &copy; 2024-${new Date().getFullYear()} - laz_R`;
+  </script>
 </html>
